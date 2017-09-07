@@ -9,6 +9,7 @@ import java.game.parts.bodypart.*;
 public class Prime_models extends Chassis
 {
 	static int	MODEL_DLH_500		= 1;
+	static int	MODEL_DLH_400		= 2;
 
 	public Prime_models( int id )
 	{
