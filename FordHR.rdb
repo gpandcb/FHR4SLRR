@@ -288,7 +288,7 @@ alias	click
 isparentcompatible	1.00
 </FILE>
 <FILE 00000027.rsd >
-shape cars\racers\FordHR_data\meshes\hood_2.scx
+shape cars\racers\FordHR_data\meshes\chassis_2.scx
 </FILE>
 <FILE 00000028.res >
 typeof	9
@@ -1518,11 +1518,11 @@ sourcefile cars\racers\FordHR_data\meshes\R_foglight.scx
 typeof	5
 superid	0x00000003
 typeid	0x00000083
-alias	hood
+alias	chassis_2
 isparentcompatible	1.00
 </FILE>
 <FILE 00000145.rsd >
-sourcefile cars\racers\FordHR_data\meshes\hood_2.scx
+sourcefile cars\racers\FordHR_data\meshes\chassis_2.scx
 </FILE>
 <FILE 00000146.res >
 typeof	5
@@ -2563,7 +2563,7 @@ texture 0x0000004F
 typeof	14
 superid	0x00000005
 typeid	0x00000084
-alias	hood
+alias	chassis_2
 isparentcompatible	1.00
 </FILE>
 <FILE 00000224.rsd >
@@ -3534,14 +3534,14 @@ lod_amp 3.000
 </FILE>
 <FILE 00000296.res >
 typeof	8
-superid	0x00000131
+superid	0x00020101
 typeid	0x000000CA
-alias	hood
+alias	prime
 isparentcompatible	1.00
 </FILE>
 <FILE 00000296.rsd >
-script cars\racers\FordHR_data\scripts\Prime_hood_2.class
-native part cars\racers\FordHR_data\scripts\hood_2.cfg
+script cars\racers\FordHR_data\scripts\Prime_DLH_400.class
+native part cars\racers\FordHR_data\scripts\_main_DLH_400.cfg
 lod_amp 3.000
 </FILE>
 <FILE 00000297.res >
